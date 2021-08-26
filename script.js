@@ -26,7 +26,8 @@ button.addEventListener('click', (e) => {
     k = Number(searchNumber.value);
 
     
-    if (n == 0) {
+    if (n == 0 || !Number.isInteger(n) || !Number.isInteger(k)) {
+        table.textContent = '';
         countResult.textContent = `Please, enter the correct data`;
     } else {
         let customerResult = '\n';

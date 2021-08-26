@@ -27,7 +27,7 @@ button.addEventListener('click', (e) => {
 
     
     if (n == 0) {
-        countResult.textContent = `Введите корректные данные`;
+        countResult.textContent = `Please, enter the correct data`;
     } else {
         let customerResult = '\n';
 
@@ -58,7 +58,7 @@ button.addEventListener('click', (e) => {
             }
         }
 
-        countResult.textContent = `Наше число встречается в таблице ${countNumber} раз(а)`;
+        countResult.textContent = `Our number appears in the multiplication table ${countNumber} time(s)`;
         
         button.setAttribute('disabled', true);
     }

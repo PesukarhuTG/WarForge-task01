@@ -48,6 +48,8 @@ createTable('6 12'); // -> 4
 
 ## How to improve the solution
 
+[![Preview](https://github.com/PesukarhuTG/WarForge-task01/blob/master/screen-multiply.jpg)](https://pesukarhutg.github.io/WarForge-task01/)
+
 • For a visual presentation we get the data *n* and *k* from *input*<br>
 • After entering the numbers, a user press the button *'Create table'* and the multiplication table n X n is displayed on the screen<br>
 • Under the multiplication table the user will see the number, how much times *k* occurs in the table<br>

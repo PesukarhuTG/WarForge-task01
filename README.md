@@ -3,7 +3,7 @@
 **Input data:**
 In string there are 2 numbers *n* and *k* with space between.<br>
 **Output data:** 
-Receive a number, how much times k occurs in the multiplication table *n X n*.<br>
+Receive a number, how many times k occurs in the multiplication table *n X n*.<br>
 **Example:**
 enter '6 12', result: 4.
 
@@ -52,7 +52,7 @@ createTable('6 12'); // -> 4
 
 • For a visual presentation we get the data *n* and *k* from *input*<br>
 • After entering the numbers, a user press the button *'Create table'* and the multiplication table n X n is displayed on the screen<br>
-• Under the multiplication table the user will see the number, how much times *k* occurs in the table<br>
+• Under the multiplication table the user will see the number, how many times *k* occurs in the table<br>
 
 **Optionally:**<br>
 • After entering the data the button *'Create table'* is blocked and becomes active only if input will be change<br>

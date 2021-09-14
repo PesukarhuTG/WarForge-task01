@@ -4,9 +4,85 @@ body {
     background-image: url('backrnd.png');
 }
 
+/* running lines*/
+.overflow {
+    height: 90vh;
+	margin: 5px;
+	padding: 40px 10px 10px;
+	position: relative;
+	overflow: hidden;
+}
+
+.running-text {
+	color: #fff;
+    font-size: 11px;
+    font-weight: 700;
+	background-color: #77c8b5;
+	padding: 10px 0;
+	text-transform: uppercase;
+	white-space: nowrap;
+	position: absolute;	
+}
+
+.running-text i {
+	font-style: normal;
+	display: block;
+}
+
+.running-text--top {
+	left: 0;
+	top: 0;
+	z-index: 10;
+}
+.running-text--top i {
+	animation: runningLineX 10s ease-in-out alternate infinite;
+}
+
+.running-text--bottom {
+	bottom: 0;
+	left: 0;
+	z-index: 30;
+}
+.running-text--bottom i {
+	animation: runningLineX 10s ease-in-out alternate-reverse infinite;
+}
+
+.running-text--right {
+	right: 0;
+	top:0;
+	writing-mode: vertical-lr;
+	padding: 0 10px;
+	z-index: 100;
+}
+
+.running-text--right i {
+	animation: runningLineY 10s ease-in-out alternate-reverse infinite;
+}
+
+.running-text--left {
+	writing-mode: vertical-lr;
+	padding: 0 1em;
+	top: 0; 
+	left: 0;
+}
+
+.running-text--left i {
+	animation: runningLineY 10s ease-in-out alternate infinite;
+}
+
+@keyframes runningLineX {
+	0% { transform: translateX(-600px); }
+	100% { transform: translateX(0px); }
+}
+
+@keyframes runningLineY {
+	0% { transform: translateY(-500px); }
+	100% { transform: translateY(0px); }
+}
+/**running lines end*/
+
 .main {
     margin: 0 auto;
-    padding: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;

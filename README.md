@@ -1,4 +1,4 @@
-# [Test task](https://pesukarhutg.github.io/WarForge-task01/) Wargaming Forge 2020
+# Test task Wargaming Forge 2020
 
 **Input data:**
 In string there are 2 numbers *n* and *k* with space between.<br>
@@ -69,4 +69,4 @@ if (row*col < 10) {
 
 • If user entered *n = 0* or *n =! integer*, we get the message "Please, enter the correct data"
 
-[Preview link](https://pesukarhutg.github.io/WarForge-task01/)
+<h2 align="center"><a href="https://pesukarhutg.github.io/WarForge-task01/" target="_blank">Deploy link</a></h2>
